@@ -24,7 +24,7 @@ while True:
         print ('Seu voto é inválido!!!')
 
 print ('Resultados da votação') 
-print(f'\nTotais: Ana: {ana}\n Bruno: {bruno}\n Carlos: {carlos}')
+print(f'\nTotais:\n Ana: {ana}\n Bruno: {bruno}\n Carlos: {carlos}')
 
 if ana > bruno and carlos:
     print('Ana venceu!')
