@@ -19,8 +19,9 @@ while True:
             print(f'{aluno} entrou na fila de atendimento ')
         
         case '2':
-            atendido = fila.pop(0)
-            print("Chamando Aluno: ", atendido)
+               if len(fila) > 0:
+                    atendido = fila.pop(0)
+                    print("Chamando Aluno: ", atendido)
         
         case '3':
             if fila:
