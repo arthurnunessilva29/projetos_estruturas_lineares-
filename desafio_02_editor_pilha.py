@@ -19,8 +19,9 @@ while True:
             print(f'Palavra adicionada :{palavra} ')
         
         case '2':
-            palavra_removida = pilha.pop()
-            print("Palavra removida: ", palavra_removida)
+            if len(pilha) > 0:
+                palavra_removida = pilha.pop()
+                print("Palavra removida: ", palavra_removida)
         
         case '3':
             print(f"Texto atual: {' '.join(pilha)}\n")
